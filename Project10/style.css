@@ -1,0 +1,118 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Classes*/
+
+.info {
+    width: 100%;
+}
+.info h3 {
+    color: #102A42;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+.info p {
+    color: #617D98;
+}
+.info ul {
+    list-style: none;
+}
+.info ul li {
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    color: #617D98;
+    font-size: larger;
+}
+
+/*DOM*/
+body {
+    background-color: #f0f0f0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    text-transform: capitalize;
+    color: #102A42;
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+header p {
+    color: #617D98;
+    font-size: larger;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+main div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    margin: 0 10px;
+}
+main div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main div ul li {
+    display: inline;
+    background-color: #afc4d8;
+    transition: 0.5s ease;
+}
+main div ul li:hover {
+    background-color: #f0f0f0;
+}
+main div ul li a {
+    font-size: x-large;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #102A42;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+main article {
+    width: 100%;
+}
+
+/*IDs*/
+
+#left {
+    border-radius: 8px 0 0 8px;
+}
+#right {
+    border-radius: 0 8px 8px 0;
+}
+
+#historyDiv {
+    display: none;
+}
+#visionDiv {
+    display: none;
+}
+#goalsDiv {
+    display: none;
+}
